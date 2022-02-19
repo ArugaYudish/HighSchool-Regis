@@ -1,0 +1,178 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: calibri;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.main2{
+	width: 100%;
+	height: 40vh;
+	position: relative;
+	font-family: 'Poppins';
+}
+
+.logo img{
+	max-width:100%;
+	/*width:100%;*/
+	height: auto;
+}
+
+
+.galeri-content{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	top: 65%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	background-color: #ffff;
+}
+
+.galeri-text h1{
+	font-size: 7vh;
+	line-height: 55px;
+	color: #22252e;
+	letter-spacing: 1px;
+	font-weight: 700;
+	margin: 0px;
+}
+
+.box-container{
+	display: inline-block;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	text-align: justify;
+	box-shadow: 2px 2px 20px rgba(90, 118, 253, 0.15);
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.box img{
+	max-width:100%;
+	/*width:100%;*/
+	height: auto;
+	margin: 10px;
+	float: left;
+}
+
+.box font{
+	font-size: 3.5vh;
+	color: #22252e;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+
+.box a{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 2.5vh;
+	color: #5a76fd;
+}
+
+.box a:hover{
+	background-color:#5a76fd ;
+	color: #fff;
+	transition: all ease 0.3s;
+}
+.box p{
+	font-size: 2.5vh;
+}
+
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 5%;
+	border-top: 1px solid rgba(167, 167, 167, 0.2);
+	background-color: #2C3E50 ;
+}
+
+.timing{
+	left: 20%;
+	bottom: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.office-time,.office-number{
+	margin: 0px 20px;
+	text-align: center;
+}
+
+.office-time h3,.office-number h3{
+	font-weight: 500;
+	color: #E5E7E9;
+	font-size: 1.0rem;
+	margin: 0px;
+	text-align: center;
+}
+
+.office-time p, .office-number p{
+	color: #FFFFFF;
+	font-size: 0.9rem;
+}
+
+.office-time font, .office-number font{
+	color: #1DA1F2;
+	font-weight: 700;
+}
+
+.icon img{
+	height: 50px;
+}
+
+.logo{
+	width: 15%;
+}
+
+.nav{
+	display: flex;
+	overflow: hidden;
+	background-color: #E5E7E9;
+	box-shadow: 2px 2px 20px rgba(90, 118, 253, 0.13);
+	width: 100%;
+}
+
+
+.con-nav{
+	padding-top: 20px;
+	text-align: center;
+	width: 20%;
+	font-size: 2.5vh;
+	color: #1DA1F2;
+}
+
+.con-nav:hover{
+	background-color: #1DA1F2;
+	color: white;
+}
+.menu{
+	width: 85%;
+	display: flex;
+	text-decoration: none;
+	color: #1DA1F2;
+}
